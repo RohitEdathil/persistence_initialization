@@ -1,6 +1,7 @@
 --find-links https://download.pytorch.org/whl/cu118
 
 torch
+apex
 hydra-core~=1.1.1
 patool
 pytorch-lightning~=1.5.1
