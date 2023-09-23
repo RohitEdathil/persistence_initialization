@@ -2,6 +2,8 @@ __all__ = ["GLOBALS"]
 from dataclasses import dataclass
 from pathlib import Path
 
+from .transformer.lightning import TransformerLightningModule
+
 
 @dataclass
 class _Globals:
