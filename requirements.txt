@@ -1,4 +1,6 @@
-# These are only the requirements that are not already present in the docker image
+--find-links https://download.pytorch.org/whl/cu118
+
+pytorch
 hydra-core~=1.1.1
 patool
 pytorch-lightning~=1.5.1
